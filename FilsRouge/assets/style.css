@@ -105,9 +105,10 @@ a{
     border: 2px solid aliceblue;
     border-radius: 100px;
     border-style: solid;
-    border-width: 1px;
+    border-width: 2px;
     display: block;
     transition: width 2s, height 2s, transform 2s;
+    width: 200px;
 
 }
 .imagecategorie img:hover{
@@ -153,6 +154,27 @@ a{
 }
 
 .img6{
+    display: flex;
+    height: 200px;
+    justify-content: center;
+
+}
+.img7{
+    display: flex;
+    height: 200px;
+    justify-content: center;
+
+}
+
+.img8{
+    display: flex;
+    height: 200px;
+    justify-content: center;
+
+    border-radius: 2px;
+}
+
+.img9{
     display: flex;
     height: 200px;
     justify-content: center;
