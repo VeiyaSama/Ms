@@ -12,15 +12,20 @@ $b = 1;
 $c = 150;
 $d = 1;
 
-
 while ($c>$b){
     echo "$b\n";
     
     $b=$b+2;
     }
-while ($a=$d)
+
+
+
+while ($d!=$a){
+    echo "$e";
     echo "Je dois faire des sauvegardes régulièrement";
     $d=$d+1;
+}
+
 ?>
 
 </body>
