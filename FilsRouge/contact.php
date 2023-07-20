@@ -41,19 +41,20 @@
         <form>
           <div class="form-group">
             <label for="nom">Nom :</label>
-            <input type="text" class="form-control" id="nom" name="nom" placeholder="Entrez votre nom">
+            <input type="text" class="form-control" id="nom" name="nom" placeholder="Entrez votre nom"required>
+            
           </div>
           <div class="form-group">
             <label for="prenom">Prénom :</label>
-            <input type="text" class="form-control" id="prenom" name="prenom" placeholder="Entrez votre prénom">
+            <input type="text" class="form-control" id="prenom" name="prenom" placeholder="Entrez votre prénom"required>
           </div>
           <div class="form-group">
             <label for="email">Email :</label>
-            <input type="email" class="form-control" id="email" name="email" placeholder="Entrez votre email">
+            <input type="email" class="form-control" id="email" name="email" placeholder="Entrez votre email"required>
           </div>
           <div class="form-group">
             <label for="message">Message :</label>
-            <textarea class="form-control" id="message" rows="4" name="demande" placeholder="Entrez votre message"></textarea>
+            <textarea class="form-control" id="message" rows="4" name="demande" placeholder="Entrez votre message"required></textarea>
           </div>
           <button type="submit" class="btn btn-primary">Envoyer</button>
         </form>
