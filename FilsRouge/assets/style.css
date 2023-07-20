@@ -192,3 +192,35 @@ body{
     background-size: cover;
     z-index: -1;
 }
+label{
+    color: aliceblue;
+}
+li{
+    color: aliceblue;
+}
+ /* Styles pour les petits écrans (smartphones) */
+ @media only screen and (max-width: 767px) {
+    /* Modifier la taille du logo pour les petits écrans */
+    img {
+      width: 50px;
+      height: 50px;
+    }
+
+    /* Réorganiser le menu pour un affichage en colonne */
+    .menu {
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Centrer les liens du menu */
+    .menu a {
+      text-align: center;
+    }
+
+    /* Réduire la taille de la vidéo pour les petits écrans */
+    .search video {
+      width: 100%;
+      height: auto;
+    }
+  }
+
