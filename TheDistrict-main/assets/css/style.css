@@ -28,7 +28,7 @@
 
 .banner,
 .order-form {
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/banniere3.jpg') center center fixed no-repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/bg3.jpeg') center center fixed no-repeat;
 	background-size: cover;
 	height: 800px;
 }
@@ -44,7 +44,7 @@
 }
 
 .cc-menu {
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/banniere5.jpg') center center fixed no-repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/fond.png') center center fixed no-repeat;
 	background-size: cover;
 	height: 1200px;
 }
