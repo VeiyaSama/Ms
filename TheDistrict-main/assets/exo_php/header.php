@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+	
 
 <!-- Bootstrap core CSS -->
 <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
@@ -12,7 +13,7 @@
 
 </head>
 <body>
-    <nav class="cc-navbar navbar navbar-expand-lg navbar-dark position-fixed w-100">
+    <nav class="cc-navbar navbar navbar-expand-lg navbar-dark  w-100">
 			<div class="container-fluid">
 				<a class="navbar-brand text-uppercase mx-4 py-3 fw-bolder" >The District</a>
 				<button

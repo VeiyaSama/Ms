@@ -24,6 +24,8 @@ background-color: black;}
 .cc-navbar .nav-link {
 	border-bottom: 1px solid transparent;
 	transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
+  display: flex;
+  justify-content: space-between;
 }
 
 .cc-navbar .nav-link:hover {
@@ -33,7 +35,7 @@ background-color: black;}
 
 .banner,
 .order-form {
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/banniere2.jpg') center center fixed no-repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/TheDistrict-main/assets/img/fond.png') center center fixed no-repeat;
 	background-size: cover;
 	height: 800px;
 }

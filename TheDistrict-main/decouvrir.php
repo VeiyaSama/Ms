@@ -8,10 +8,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 
 		<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
-		<link rel="stylesheet" href="assets/css/plats.css" />
+		<link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
-
+<style>
+    body {
+          background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/img/fond.png') center center fixed no-repeat;
+	        background-size: cover;
+        	height: 1200px;
+    }
+</style>
 
 <?php
 include('assets/exo_php/header.php')
